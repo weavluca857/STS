@@ -14,9 +14,14 @@ The goal of this project is to teach fundamental programming concepts to a begin
 
 ### Project Infrastructure
 
+#### Learning portion
 This project is divided into two pieces: the first is the learning element and the second is the game element. All of the learning elements are in the Class_Plans folder. The learning tool takes up the rest of the files. 
 
+#### Example portion
+
 pong.py is the main program of the learning tool. 
+pong.py gets output wrapper classes from Drivers/, specifically GetInput.py which contains all of the output wrapper classes. 
+
 ## Overview of Computing topics
 
 ### Computer Engineering
