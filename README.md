@@ -12,6 +12,11 @@ Save Their Souls is a raspberryPi based project designed to teach students compu
 This repository contains code and lessons plans for a game and joystick drivers. 
 The goal of this project is to teach fundamental programming concepts to a beginner audience using specific functionalities as examples and mini projects for the students.
 
+### Project Infrastructure
+
+This project is divided into two pieces: the first is the learning element and the second is the game element. All of the learning elements are in the Class_Plans folder. The learning tool takes up the rest of the files. 
+
+pong.py is the main program of the learning tool. 
 ## Overview of Computing topics
 
 ### Computer Engineering
