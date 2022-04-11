@@ -281,6 +281,8 @@ while True:
                 player1.update()
                 if single:
                     player2.updateAI((ball.x, ball.y), player2.rect.x)
+                else:
+                    player2.update()
                 ball.update()
 
             # If we are done, print game over
@@ -331,6 +333,7 @@ while True:
             pygame.display.flip()
 
             clock.tick(30)
+
         if multi:
             joystick2.server.s.close()
         pygame.quit()

@@ -26,13 +26,14 @@ class LAN_output:
 
     def __init__(self, s):
         self.up = 0
-        self.server = Server(s).listen()
+        self.server = Server(s)
+        self.server.listen()
 
-    def get_data(self, socket):
+    def get_data(self):
         self.server.get_data()
 
-    def update(self, socket):
-        self.get_data(socket)
+    def update(self):
+        self.get_data()
         self.up = self.server.data
 
 class AI_output:
